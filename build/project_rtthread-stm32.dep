@@ -2,7 +2,7 @@ Dependencies for Project 'project', Target 'rtthread-stm32': (DO NOT MODIFY !)
 F (rt-thread\src\clock.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\clock.o --depend .\build\clock.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -24,7 +24,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\components.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\components.o --depend .\build\components.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -45,7 +45,7 @@ I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\cpu.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\cpu.o --depend .\build\cpu.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -67,7 +67,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 F (rt-thread\src\device.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\device.o --depend .\build\device.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -89,7 +89,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\idle.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\idle.o --depend .\build\idle.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -110,7 +110,7 @@ I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\ipc.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\ipc.o --depend .\build\ipc.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -133,7 +133,7 @@ I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 F (rt-thread\src\irq.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\irq.o --depend .\build\irq.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -154,7 +154,7 @@ I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\kservice.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\kservice.o --depend .\build\kservice.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -177,7 +177,7 @@ I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 F (rt-thread\src\mem.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\mem.o --depend .\build\mem.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -204,7 +204,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 F (rt-thread\src\memheap.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\memheap.o --depend .\build\memheap.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -226,7 +226,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\mempool.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\mempool.o --depend .\build\mempool.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -247,7 +247,7 @@ I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\object.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\object.o --depend .\build\object.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -269,7 +269,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 F (rt-thread\src\scheduler.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\scheduler.o --depend .\build\scheduler.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -294,7 +294,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -315,7 +315,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\thread.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\thread.o --depend .\build\thread.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -336,7 +336,7 @@ I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\src\timer.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\timer.o --depend .\build\timer.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -358,7 +358,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 F (applications\led.c)(0x5D2E8B3B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\led.o --depend .\build\led.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -389,9 +389,9 @@ I (rt-thread\components\drivers\include\ipc/ringblk_buf.h)(0x5C4D6AFF)
 I (rt-thread\components\drivers\include\drivers/serial.h)(0x5D2D6A5C)
 I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 I (applications\led.h)(0x5D2D348C)
-F (applications\main.c)(0x5D2E9BAF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\main.o --depend .\build\main.d)
+F (applications\main.c)(0x5D2EE7D0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\main.o --depend .\build\main.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -410,7 +410,7 @@ I (rt-thread\include\libc/libc_fdset.h)(0x5C4D6AFF)
 I (rt-thread\include\rtservice.h)(0x5C4D6AFF)
 I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
-I (applications\head.h)(0x5D2D9567)
+I (applications\head.h)(0x5D2EDD54)
 I (rt-thread\components\drivers\include\rtdevice.h)(0x5C4D6AFF)
 I (rt-thread\components\drivers\include\ipc/ringbuffer.h)(0x5C4D6AFF)
 I (rt-thread\components\drivers\include\ipc/completion.h)(0x5C4D6AFF)
@@ -430,7 +430,7 @@ I (applications\led.h)(0x5D2D348C)
 F (drivers\board.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\board.o --depend .\build\board.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -480,7 +480,7 @@ F (drivers\stm32f1xx_it.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -527,7 +527,7 @@ I (drivers\stm32f1xx_it.h)(0x5C4D6AFF)
 F (drivers\drv_gpio.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\drv_gpio.o --depend .\build\drv_gpio.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -589,7 +589,7 @@ I (drivers\board.h)(0x5C4D6AFF)
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -657,7 +657,7 @@ I (Libraries\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5C4D6AFF)
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -696,7 +696,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -743,7 +743,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -790,7 +790,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -837,7 +837,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c)(0x5C4D6AFF)(--c99
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -884,7 +884,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c)(0x5C4D6AFF)(--c99 -
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -931,7 +931,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c)(0x5C4D6AFF)(--c9
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -978,7 +978,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1025,7 +1025,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1072,7 +1072,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1119,7 +1119,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1166,7 +1166,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_irda.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1213,7 +1213,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_iwdg.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1260,7 +1260,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1307,7 +1307,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1354,7 +1354,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1401,7 +1401,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1448,7 +1448,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rtc_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1495,7 +1495,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_smartcard.c)(0x5C4D6AFF)(--c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1542,7 +1542,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1589,7 +1589,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1636,7 +1636,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1683,7 +1683,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1730,7 +1730,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1777,7 +1777,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_usart.c)(0x5C4D6AFF)(--c99 -
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1824,7 +1824,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_wwdg.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1871,7 +1871,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c)(0x5C4D6AFF)(--c99 -c --cp
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1923,7 +1923,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_fsmc.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -1975,7 +1975,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2025,7 +2025,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c)(0x5C4D6AFF)(--c99 -c -
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2081,7 +2081,7 @@ I (Libraries\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x5C4D6AFF)
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2122,7 +2122,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_can.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2169,7 +2169,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2216,7 +2216,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dac_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2263,7 +2263,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2310,7 +2310,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_mmc.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2357,7 +2357,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c)(0x5C4D6AFF)(--c99 -c -
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2404,7 +2404,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nand.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2451,7 +2451,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pccard.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2498,7 +2498,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_nor.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2545,7 +2545,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sram.c)(0x5C4D6AFF)(--c99 -c
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2592,7 +2592,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c)(0x5C4D6AFF)(--c99 -c 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2639,7 +2639,7 @@ F (Libraries\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c)(0x5C4D6AFF)(--c99 
 I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5C4D6AFF)
 I (drivers\stm32f1xx_hal_conf.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2685,7 +2685,7 @@ I (Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_usart.h)(0x5C4D6AFF)
 F (Libraries\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xe.s)(0x5C4D6AFF)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "STM32F10X_HD SETA 1"--list .\build\startup_stm32f103xe.lst --xref -o .\build\startup_stm32f103xe.o --depend .\build\startup_stm32f103xe.d)
 F (rt-thread\libcpu\arm\common\backtrace.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\backtrace.o --depend .\build\backtrace.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2707,7 +2707,7 @@ I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\libcpu\arm\common\div0.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\div0.o --depend .\build\div0.d)
 F (rt-thread\libcpu\arm\common\showmem.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\showmem.o --depend .\build\showmem.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2728,7 +2728,7 @@ I (rt-thread\include\rtm.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\finsh_api.h)(0x5C4D6AFF)
 F (rt-thread\libcpu\arm\cortex-m3\cpuport.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\cpuport.o --depend .\build\cpuport.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2751,7 +2751,7 @@ F (rt-thread\libcpu\arm\cortex-m3\context_rvds.S)(0x5C4D6AFF)(--cpu Cortex-M3 -g
 F (rt-thread\components\drivers\misc\pin.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\pin.o --depend .\build\pin.d)
 I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2788,7 +2788,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 F (rt-thread\components\drivers\serial\serial.c)(0x5D2D6A33)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\serial.o --depend .\build\serial.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2822,7 +2822,7 @@ I (rt-thread\include\rtdbg.h)(0x5C4D6AFF)
 F (rt-thread\components\drivers\src\completion.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\completion.o --depend .\build\completion.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2854,7 +2854,7 @@ I (rt-thread\components\drivers\include\drivers/serial.h)(0x5D2D6A5C)
 I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 F (rt-thread\components\drivers\src\dataqueue.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\dataqueue.o --depend .\build\dataqueue.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2888,7 +2888,7 @@ I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 F (rt-thread\components\drivers\src\pipe.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\pipe.o --depend .\build\pipe.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2921,7 +2921,7 @@ I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 F (rt-thread\components\drivers\src\ringblk_buf.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\ringblk_buf.o --depend .\build\ringblk_buf.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2953,7 +2953,7 @@ I (rt-thread\components\drivers\include\drivers/serial.h)(0x5D2D6A5C)
 I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 F (rt-thread\components\drivers\src\ringbuffer.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\ringbuffer.o --depend .\build\ringbuffer.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -2988,7 +2988,7 @@ F (rt-thread\components\drivers\src\waitqueue.c)(0x5C4D6AFF)(--c99 -c --cpu Cort
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3020,7 +3020,7 @@ I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 F (rt-thread\components\drivers\src\workqueue.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\workqueue.o --depend .\build\workqueue.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3053,7 +3053,7 @@ I (rt-thread\components\drivers\include\drivers/pin.h)(0x5C4D6AFF)
 F (rt-thread\components\finsh\shell.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\shell.o --depend .\build\shell.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3081,7 +3081,7 @@ I (rt-thread\components\finsh\shell.h)(0x5C4D6AFF)
 I (rt-thread\components\finsh\msh.h)(0x5C4D6AFF)
 F (rt-thread\components\finsh\symbol.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\symbol.o --depend .\build\symbol.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3108,7 +3108,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 F (rt-thread\components\finsh\cmd.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\cmd.o --depend .\build\cmd.d)
 I (rt-thread\include\rthw.h)(0x5C4D6AFF)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3134,7 +3134,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 F (rt-thread\components\finsh\msh.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\msh.o --depend .\build\msh.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3162,7 +3162,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (rt-thread\components\finsh\shell.h)(0x5C4D6AFF)
 F (rt-thread\components\finsh\msh_cmd.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\msh_cmd.o --depend .\build\msh_cmd.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3189,7 +3189,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (rt-thread\components\finsh\msh.h)(0x5C4D6AFF)
 F (rt-thread\components\finsh\msh_file.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\msh_file.o --depend .\build\msh_file.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3212,7 +3212,7 @@ F (rt-thread\components\libc\compilers\armlibc\libc.c)(0x5C4D6AFF)(--c99 -c --cp
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3235,7 +3235,7 @@ I (rt-thread\components\libc\compilers\armlibc\libc.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599EDB3C)
 F (rt-thread\components\libc\compilers\armlibc\mem_std.c)(0x5C4D6AFF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I . -I rt-thread\include -I applications -I . -I drivers -I Libraries\CMSIS\Device\ST\STM32F1xx\Include -I Libraries\STM32F1xx_HAL_Driver\Inc -I Libraries\CMSIS\Include -I rt-thread\libcpu\arm\common -I rt-thread\libcpu\arm\cortex-m3 -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\drivers\include -I rt-thread\components\finsh -I rt-thread\components\libc\compilers\armlibc -I rt-thread\components\libc\compilers\common-I.\RTE\_rtthread-stm32-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DRT_USING_ARM_LIBC -DSTM32F103xE-o .\build\mem_std.o --depend .\build\mem_std.d)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3258,7 +3258,7 @@ F (rt-thread\components\libc\compilers\armlibc\stubs.c)(0x5C4D6AFF)(--c99 -c --c
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EDB3C)
 I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x599EDB3C)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3286,7 +3286,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
 I (rt-thread\components\libc\compilers\armlibc\sys/types.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
@@ -3309,7 +3309,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x599EDB3E)
 I (rt-thread\components\libc\compilers\armlibc\sys/types.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
 I (rt-thread\include\rtthread.h)(0x5C4D6AFF)
-I (.\rtconfig.h)(0x5D2D8B35)
+I (.\rtconfig.h)(0x5D2EE785)
 I (rt-thread\include\rtdebug.h)(0x5C4D6AFF)
 I (rt-thread\include\rtdef.h)(0x5C4D6AFF)
 I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599EDB3A)
