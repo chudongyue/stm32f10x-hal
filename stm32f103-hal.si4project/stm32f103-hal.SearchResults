@@ -1,0 +1,2 @@
+---- reserved Matches (1 in 1 files) ----
+serial_configure in serial.h (rt-thread\components\drivers\include\drivers) :     rt_uint32_t reserved                :16;//6
