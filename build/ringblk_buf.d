@@ -32,4 +32,7 @@
 .\build\ringblk_buf.o: rt-thread\components\drivers\include\ipc/poll.h
 .\build\ringblk_buf.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
 .\build\ringblk_buf.o: rt-thread\components\drivers\include\drivers/serial.h
+.\build\ringblk_buf.o: rt-thread\components\drivers\include\drivers/i2c.h
+.\build\ringblk_buf.o: rt-thread\components\drivers\include\drivers/i2c_dev.h
+.\build\ringblk_buf.o: rt-thread\components\drivers\include\drivers/i2c-bit-ops.h
 .\build\ringblk_buf.o: rt-thread\components\drivers\include\drivers/pin.h

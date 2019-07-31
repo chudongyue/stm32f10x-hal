@@ -10,7 +10,6 @@
 #include <rtthread.h>
 #include <head.h>
 
-
 MAIN_STR	g_tMainStr;
 
 
@@ -38,7 +37,7 @@ static void led_thread_entry(void* parameter)
 {
 	rt_uint32_t count = 0;
 
-	rt_kprintf("\n");
+	//rt_kprintf("\n");
 	rt_kprintf("create led_thread OK!\n");
 
 	while (1)
@@ -136,7 +135,7 @@ void readCouart3(rt_uint8_t range, rt_uint8_t val_temp)
 
 static void readuart3_thread_entry(void* parameter)
 {
-	rt_kprintf("\n");
+	//rt_kprintf("\n");
 	rt_kprintf("create readuart3_thread OK!\n");
 
 	while (1)
@@ -351,6 +350,20 @@ void print_rt_data(int argc, char ** argv)//到处实时数据输出命令
 MSH_CMD_EXPORT(print_rt_data, Printout Real Time Data );
 
 
+void reboot(void)//系统复位
+{
+   rt_kprintf("Sys will be reboot after 3S  !\n"); 
+   rt_thread_delay(1000);
+   rt_kprintf("Sys will be reboot after 2S  !\n"); 
+   rt_thread_delay(1000);
+   rt_kprintf("Sys will be reboot after 1S  !\n"); 
+   rt_thread_delay(1000);
+   rt_kprintf(" Sys  will  be  reboot   now !\n"); 
+   rt_thread_delay(1000);
+
+   rt_hw_cpu_reset();
+}
+MSH_CMD_EXPORT(reboot, Reboot sys !); 
 
 
 

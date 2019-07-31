@@ -76,6 +76,8 @@
 #define RT_PIPE_BUFSZ 512
 #define RT_USING_SERIAL
 #define RT_SERIAL_USING_DMA
+#define RT_USING_I2C
+#define RT_USING_I2C_BITOPS
 #define RT_USING_PIN
 
 /* Using WiFi */
@@ -141,6 +143,7 @@
 
 /* peripheral libraries and drivers */
 
+#define PKG_USING_SENSORS_DRIVERS
 
 /* miscellaneous packages */
 
@@ -154,17 +157,5 @@
 #define RT_USING_UART3
 #define RT_USING_UART4
 #define RT_USING_UART5
-
-#define myuart1_DEVICE_NAME "uart1"
-#define myuart2_DEVICE_NAME "uart2"
-#define myuart3_DEVICE_NAME "uart3"
-#define myuart4_DEVICE_NAME "uart4"
-#define myuart5_DEVICE_NAME "uart5"
-
-#define RT_USING_MINILIBC
-
-
-
-
 
 #endif

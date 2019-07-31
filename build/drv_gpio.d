@@ -32,6 +32,9 @@
 .\build\drv_gpio.o: rt-thread\components\drivers\include\ipc/poll.h
 .\build\drv_gpio.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
 .\build\drv_gpio.o: rt-thread\components\drivers\include\drivers/serial.h
+.\build\drv_gpio.o: rt-thread\components\drivers\include\drivers/i2c.h
+.\build\drv_gpio.o: rt-thread\components\drivers\include\drivers/i2c_dev.h
+.\build\drv_gpio.o: rt-thread\components\drivers\include\drivers/i2c-bit-ops.h
 .\build\drv_gpio.o: rt-thread\components\drivers\include\drivers/pin.h
 .\build\drv_gpio.o: drivers\board.h
 .\build\drv_gpio.o: Libraries\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h

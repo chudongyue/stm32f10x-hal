@@ -59,6 +59,9 @@
 .\build\drv_usart.o: rt-thread\components\drivers\include\ipc/poll.h
 .\build\drv_usart.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
 .\build\drv_usart.o: rt-thread\components\drivers\include\drivers/serial.h
+.\build\drv_usart.o: rt-thread\components\drivers\include\drivers/i2c.h
+.\build\drv_usart.o: rt-thread\components\drivers\include\drivers/i2c_dev.h
+.\build\drv_usart.o: rt-thread\components\drivers\include\drivers/i2c-bit-ops.h
 .\build\drv_usart.o: rt-thread\components\drivers\include\drivers/pin.h
 .\build\drv_usart.o: drivers\drv_usart.h
 .\build\drv_usart.o: rt-thread\include\rthw.h

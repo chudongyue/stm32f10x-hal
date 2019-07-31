@@ -31,5 +31,8 @@
 .\build\led.o: rt-thread\components\drivers\include\ipc/poll.h
 .\build\led.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
 .\build\led.o: rt-thread\components\drivers\include\drivers/serial.h
+.\build\led.o: rt-thread\components\drivers\include\drivers/i2c.h
+.\build\led.o: rt-thread\components\drivers\include\drivers/i2c_dev.h
+.\build\led.o: rt-thread\components\drivers\include\drivers/i2c-bit-ops.h
 .\build\led.o: rt-thread\components\drivers\include\drivers/pin.h
 .\build\led.o: applications\led.h

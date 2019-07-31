@@ -10,6 +10,13 @@
 
 #include "led.h"
 
+#define myuart1_DEVICE_NAME "uart1"
+#define myuart2_DEVICE_NAME "uart2"
+#define myuart3_DEVICE_NAME "uart3"
+#define myuart4_DEVICE_NAME "uart4"
+#define myuart5_DEVICE_NAME "uart5"
+
+
 
 
 

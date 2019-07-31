@@ -32,6 +32,9 @@
 .\build\pin.o: rt-thread\components\drivers\include\ipc/poll.h
 .\build\pin.o: rt-thread\components\drivers\include\ipc/ringblk_buf.h
 .\build\pin.o: rt-thread\components\drivers\include\drivers/serial.h
+.\build\pin.o: rt-thread\components\drivers\include\drivers/i2c.h
+.\build\pin.o: rt-thread\components\drivers\include\drivers/i2c_dev.h
+.\build\pin.o: rt-thread\components\drivers\include\drivers/i2c-bit-ops.h
 .\build\pin.o: rt-thread\components\drivers\include\drivers/pin.h
 .\build\pin.o: rt-thread\components\finsh\finsh.h
 .\build\pin.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
